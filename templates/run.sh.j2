@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "oulu.demo.lampotila $(python /opt/thermal/thermal_collector.py) $(date +%s)" |nc {{ lookup('file', 'tmp_ip') }} 2003

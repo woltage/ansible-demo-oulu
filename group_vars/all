@@ -1,0 +1,7 @@
+kannan_nimi: lampotila
+instance_type: m1.small
+projektin_hakemisto: /opt/thermal
+security_group: Oulu-demo
+image: ami-bf0897c8
+region: eu-west-1
+instance_name: Oulu
